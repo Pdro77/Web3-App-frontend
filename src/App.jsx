@@ -154,29 +154,22 @@ const App = () => {
         </div>
 
         <div className="bio">
-          We are P&P and we love Bitcoin and the blockchain projects! Connect your Ethereum wallet and wave at me!
+          We are P&P and we love Bitcoin and the blockchain projects! Soon we will be realising the first batch of our NFTs collection! Join the Whitelist and drop your Discord!
         </div>
         <br></br>
-        {/*<button className="waveButton" onClick={wave}>
-          Wave at Me
-        </button>*/}
-        
-       
-         <input class="textInputSpace" type="text" name="msgTxt1" id="msgTxt1" placeholder="Send us a message!" maxlenght="2048">
+              
+         <input class="textInputSpace" type="text" name="msgTxt1" id="msgTxt1" placeholder="Discord profile name" maxlenght="2048">
          </input> 
          <br></br>
          <a class="fancy" href="#" onClick={() => wave(document.getElementById("msgTxt1").value)}>
           <span class="top-key"></span>
-          <span class="text">Click if you like Web3 </span>
+          <span class="text">¡Join the Whitelist!</span>
           <span class="bottom-key-1"></span>
           <span class="bottom-key-2"></span>
         </a>
  <br></br>
         {/*If there is no currentAccount render this button*/}
         {!currentAccount && (
-      /*<button className="waveButton" onClick={connectWallet}>
-           // Connect Wallet
-         // </button>*/
         <a class="fancy" href="#" onClick={connectWallet}>
           <span class="top-key"></span>
           <span class="text">Connect Wallet</span>
